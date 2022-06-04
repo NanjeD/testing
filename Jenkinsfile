@@ -5,6 +5,4 @@ pipeline{
             steps{
                 sh 'lscpu'
             }
-        }
-    }
-}
+       
