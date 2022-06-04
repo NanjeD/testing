@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('1-first stage'){
+        stage('1-git clone'){
             steps{
                 sh 'lscpu'
             }
