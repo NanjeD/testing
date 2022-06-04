@@ -6,5 +6,10 @@ pipeline{
                 sh 'lscpu'
             }
         }
+        stage('2-system update'){
+            steps{
+                sh 'free -m'
+            }
+        }
     }
 }
